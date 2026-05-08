@@ -19,7 +19,7 @@ const Education = () => {
     {
       institution: 'Shaheed Police Smrity College',
       degree: 'HSC in Science',
-      period: '2019–2021',
+      period: '2018–2020',
       cgpa: 'GPA 4.83/5.00',
       icon: <FiAward />,
     },
