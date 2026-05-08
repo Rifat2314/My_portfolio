@@ -1,0 +1,97 @@
+/* src/components/Education.css */
+.education {
+  background: #0a0a0f;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #3b82f6, #8b5cf6);
+}
+
+.timeline-item-edu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.timeline-icon {
+  width: 60px;
+  height: 60px;
+  background: var(--card-bg);
+  border: 2px solid #3b82f6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #3b82f6;
+  z-index: 1;
+  margin: 0 30px;
+}
+
+.timeline-content-edu {
+  flex: 1;
+  background: var(--card-bg);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 20px;
+  padding: 24px;
+  transition: all 0.3s;
+}
+
+.timeline-content-edu:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+}
+
+.timeline-content-edu h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #3b82f6;
+}
+
+.edu-degree {
+  color: #e4e4e7;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.edu-details {
+  display: flex;
+  gap: 20px;
+  font-size: 0.875rem;
+}
+
+.edu-period, .edu-cgpa {
+  color: #a1a1aa;
+}
+
+@media (max-width: 768px) {
+  .timeline::before {
+    left: 30px;
+  }
+  .timeline-item-edu {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  .timeline-icon {
+    margin: 0 0 20px 0;
+  }
+  .timeline-content-edu {
+    width: 100%;
+  }
+}

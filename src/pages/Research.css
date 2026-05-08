@@ -1,0 +1,100 @@
+/* src/components/Research.css */
+.research {
+  background: radial-gradient(circle at center, rgba(59, 130, 246, 0.05), transparent);
+}
+
+.research-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 32px;
+  padding: 40px;
+  transition: all 0.3s;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.2);
+}
+
+.research-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.research-icon {
+  font-size: 2rem;
+  color: #3b82f6;
+}
+
+.research-header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.research-content p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #a1a1aa;
+  margin-bottom: 24px;
+}
+
+.research-models {
+  margin-bottom: 20px;
+}
+
+.models-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #3b82f6;
+}
+
+.model-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.model-badge {
+  padding: 8px 16px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 30px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.model-badge:hover {
+  background: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.research-benchmark {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: #8b5cf6;
+}
+
+@media (max-width: 768px) {
+  .research-card {
+    padding: 24px;
+  }
+  .research-header h3 {
+    font-size: 1.25rem;
+  }
+  .research-content p {
+    font-size: 1rem;
+  }
+}
