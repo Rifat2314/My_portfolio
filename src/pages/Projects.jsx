@@ -3,6 +3,8 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiCalendar, FiUsers, FiDatabase, FiLock } from 'react-icons/fi';
 import './Projects.css';
+import shuttle from '../assets/shuttle.png'
+import community from '../assets/community.png'
 
 const Projects = () => {
   const ref = useRef(null);
@@ -23,7 +25,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'Express', 'MongoDB', 'SSLCommerz'],
       github: 'https://github.com/jms108/ShuttleSync-Railway-App',
       demo: 'https://shuttlesync-railway-app-1.onrender.com/dashboard',
-      image: 'https://via.placeholder.com/400x250/1e1e2e/3b82f6?text=ShuttleSync',
+      image: [shuttle],
     },
     {
       title: 'CU-CIMS – Community Info Management System',
@@ -39,7 +41,7 @@ const Projects = () => {
       tech: ['React', 'Node.js', 'Express', 'MySQL', 'Firebase'],
       github: 'https://github.com/faysalcsecu/CU-Community-info-management-system',
       
-      image: 'https://via.placeholder.com/400x250/1e1e2e/8b5cf6?text=CU-CIMS',
+      image: [community],
     },
   ];
 
