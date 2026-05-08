@@ -12,7 +12,7 @@ const Hero = () => {
 
   const roles = [
     'MERN Stack Developer',
-    'Competitive Programmer',
+    'Problem Solver',
     'AI Enthusiast',
     'CSE Undergraduate'
   ];

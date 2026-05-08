@@ -62,7 +62,7 @@ const Competitive = () => {
           transition={{ duration: 0.6 }}
           className="section-title"
         >
-          Competitive Programming
+        Programming and problem solving
         </motion.h2>
         <div className="competitive-grid">
           <motion.div
