@@ -11,10 +11,9 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const roles = [
-    'MERN Stack Developer',
+    'Backend Developer',
     'Problem Solver',
     'AI Enthusiast',
-    'CSE Undergraduate'
   ];
 
   useEffect(() => {

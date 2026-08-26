@@ -13,7 +13,7 @@ const Education = () => {
       institution: 'University of Chittagong',
       degree: 'B.Sc. in Computer Science & Engineering',
       period: '2022–2026',
-      cgpa: 'CGPA 3.69/4.00',
+      cgpa: 'CGPA 3.72/4.00',
       icon: <FiBookOpen />,
     },
     {
