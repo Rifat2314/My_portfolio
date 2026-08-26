@@ -9,7 +9,7 @@ const About = () => {
 
   const skills = [
     { name: 'Problem Solver', icon: '💻', description: '1500+ problems solved' },
-    { name: 'Web Developer', icon: '🌐', description: 'MERN stack' },
+    { name: 'Web Developer', icon: '🌐', description: 'Backend' },
     { name: 'AI Enthusiast', icon: '🤖', description: 'LLM & ML research' },
     { name: 'CS Fundamentals', icon: '📚', description: 'Strong theoretical foundation' },
   ];
